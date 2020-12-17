@@ -1,0 +1,3 @@
+cmake -DPYTHON=python3 -DCMAKE_INSTALL_PREFIX=/usr/local
+.echo /usr/local | sudo tee /etc/ld.so.conf.d/artm.conf
+echo /usr/local/lib | sudo tee /etc/ld.so.conf.d/artm.conf
